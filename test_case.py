@@ -18,7 +18,7 @@ class TestMyModule(unittest.TestCase):
     def test_do_divide_by_zero(self):
 
         fist_arg = 4
-        second_arg = 0
+        second_arg = 2
 
         result = class_example.do_divide(fist_arg,second_arg)
         expected_result = None
