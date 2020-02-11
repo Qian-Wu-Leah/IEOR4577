@@ -23,4 +23,3 @@ class TestMyModule(unittest.TestCase):
         result = class_example.do_divide(fist_arg,second_arg)
         expected_result = None
         self.assertEqual(result, expected_result)
-
